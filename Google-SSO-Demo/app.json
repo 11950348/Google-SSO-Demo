@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Google-SSO-Demo",
+    "owner": "five-spot-capstone-team",
+    "slug": "Google-SSO-Demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bmotherobot.googlessodemo"
+    },
+    "android": {
+      "package": "com.bmotherobot.googlessodemo",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6879d1ea-fb59-4041-a59a-f1ec50e86517"
+      }
+    }
+  }
+}
